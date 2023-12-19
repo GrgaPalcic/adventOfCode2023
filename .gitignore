@@ -1,2 +1,5 @@
 **/target/
 .vscode/
+**/input.txt
+**/test.txt
+**/ref.*
