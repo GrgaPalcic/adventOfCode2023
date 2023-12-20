@@ -88,17 +88,16 @@ int main(int argc, char *argv[])
     }
 
     char line[200];
+    memset(line, 0, sizeof(line));
     int sum_possible_games = 0;
     int sum_of_powers = 0;
 
+    char game_info[200];
+    int game_number;
     // Read the file line by line until EOF
     while (fgets(line, sizeof(line), file) != NULL)
     {
-        char game_info[200];
-        int game_number;
         sscanf(line, "Game %d: %[^\n]", &game_number, game_info);
-        //printf("Game %d\n", game_number);
-        //printf("%s\n", game_info);
 
         GameSpecs game_specs = is_valid(RED, GREEN, BLUE, game_info);
 
