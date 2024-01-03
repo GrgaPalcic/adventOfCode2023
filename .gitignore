@@ -1,4 +1,16 @@
-**/target/
 .vscode/
 **/input.txt
 **/ref.*
+**/ignore.txt
+day5/demo.c
+day5/demo.exe
+day5/demo2.c
+day5/demo2.exe
+day5/main_rework.c
+day5/main_rework.exe
+day5/main.c
+day5/main.exe
+day5/partial.txt
+day5/test.txt
+libs/dynArray.c
+libs/dynArray.h
